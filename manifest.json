@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "Web Logger",
+  "description": "Logs keystroke and mouse dynamics to accurately verify user.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": {
+        "48": "icons/logger.png"
+    },
+    "browser_style": true,
+    "default_title": "Download Data",
+    "default_popup": "popup/popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_scripts/weblogger.js"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "unlimitedStorage"
+  ],
+
+  "icons": {
+    "48": "icons/logger.png"
+  }
+}

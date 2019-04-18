@@ -1,0 +1,35 @@
+html, body, #wrapper {
+   height: auto;
+   width: auto;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   background-color: #e8e8e8;
+}
+
+#wrapper td {
+   vertical-align: middle;
+   text-align: center;
+}
+
+nav p {
+	text-align: center;
+}
+
+button {
+	background:    #c5c5c5;
+	border:        1px solid #d2d2d2;
+	border-radius: 5px;
+	padding:       12px 25px;
+	color:         #444444;
+	display:       inline-block;
+	font:          normal 700 20px/1 "Roboto", sans-serif;
+	text-align:    center;
+	text-shadow:   none;
+}
+
+p {
+	color: #74787f;
+	font-size: 16px;
+	font-weight: bold;
+}
