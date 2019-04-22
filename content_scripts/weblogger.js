@@ -117,7 +117,7 @@ window.onload = function() {
 		var timestamp = Date.now();
 		mouse_timer = timestamp;
 		var event_type = "lu";
-		/*
+		/* If you want more than one type of click
 		if (event.button == 0) {
 			event_type = "lu";
 		}else if (event.button == 1) {
