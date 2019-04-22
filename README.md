@@ -1,5 +1,5 @@
 # WEBBL
-Web Extension Behavioral Biometric Logger (includes basic key and mouse dynamics)
+### Web Extension Behavioral Biometric Logger (includes basic key and mouse dynamics)
 
 **Description:** Logs raw behavioral data pertaining to mouse and keystroke dynamics
 
