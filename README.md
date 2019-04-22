@@ -2,7 +2,9 @@
 Web Extension Behavioral Biometric Logger (includes basic key and mouse dynamics)
 
 **Description:** Logs raw behavioral data pertaining to mouse and keystroke dynamics
+
 **Requires:** Latest version of Firefox
+
 **Output:** raw behavioral data (data.csv)
 
 **Installation:**
