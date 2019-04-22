@@ -139,7 +139,8 @@ window.onload = function() {
  	window.addEventListener('submit', function (e) {
  		// Get data from localStorage and download it
  		var data_text = JSON.parse(localStorage.getItem('data'));
-  		download("data.csv", data_text);
+		download("data.csv", data_text);
+		localStorage.removeItem('data');
 		//(e || window.event).returnValue = null;
 		//return null;
  	}, false);
